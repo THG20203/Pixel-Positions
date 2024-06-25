@@ -11,7 +11,6 @@
 <body>
     <div>
         <nav>
-
             <div>
                 <a href="/">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" />
@@ -28,7 +27,6 @@
             <div>
                 <a href="">Post a Job</a>
             </div>
-
         </nav>
         <main>
             {{ $slot }}
