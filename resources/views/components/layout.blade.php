@@ -12,7 +12,11 @@
     <div>
         <nav>
 
-            <div><a href=""><img src="{{ Vite::asset('resources/images/logo.svg') }}" /></a></div>
+            <div>
+                <a href="/">
+                    <img src="{{ Vite::asset('resources/images/logo.svg') }}" />
+                </a>
+            </div>
 
             <div>links</div>
             <div>post a job</div>
