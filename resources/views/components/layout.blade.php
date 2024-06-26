@@ -9,8 +9,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <div>
-        <nav>
+
+    <!-- Set padding around the navbar -->
+    <div class="px-10">
+        <!-- spread nav items horizontally across the page -->
+        <nav class="flex justify-between items-centre bg-red-500">
             <div>
                 <a href="/">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" />
