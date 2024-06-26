@@ -2,7 +2,12 @@
 export default {
     content: ["./resources/**/*.blade.php", "./resources/**/*.js"],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                /* changing black to a slightly different shade */
+                black: "#060606",
+            },
+        },
     },
     plugins: [],
 };
