@@ -10,17 +10,17 @@
 </head>
 
 <body class="bg-black text-white">
-    <!-- Set padding around the navbar -->
+    {{-- Set padding around the navbar --}}
     <div class="px-10">
-        <!-- spread nav items horizontally across the page -->
-        <nav class="flex justify-between items-centre py-4">
+        {{-- spread nav items horizontally across the page, and border-white/20 means white border 20% --}}
+        <nav class="flex justify-between items-centre py-4 border-b border-white/20">
             <div>
                 <a href="/">
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" />
                 </a>
             </div>
 
-            <div>
+            <div class="space-x-6">
                 <a href="#">Jobs</a>
                 <a href="#">Careers</a>
                 <a href="#">Salaries</a>
@@ -28,10 +28,11 @@
             </div>
 
             <div>
-                <a href="">Post a Job</a>
+                <a href="#">Post a Job</a>
             </div>
         </nav>
-        <main>
+        {{-- max width values can be set with custom value in [] --}}
+        <main class="mt-10 max-w-[986px]">
             {{ $slot }}
         </main>
     </div>
