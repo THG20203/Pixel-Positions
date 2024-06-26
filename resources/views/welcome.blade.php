@@ -1,7 +1,7 @@
 <x-layout>
     <section>
         <h3>Top Jobs</h3>
-        <div>
+        <div class="p-4 bg-red-500">
             <div>
                 <div>Laracasts</div>
                 <div>
@@ -16,7 +16,7 @@
                         <a href="#">Tag</a>
                     </div>
 
-                    <img src="https://placeholder.it/42/42" alt="" />
+                    <img src="https://placehold.co/42x42" alt="" />
                 </div>
             </div>
         </div>
