@@ -7,6 +7,9 @@ export default {
                 /* changing black to a slightly different shade */
                 black: "#060606",
             },
+            fontFamily: {
+                "hanken-grotest": ["Hanken Grotesk", "sans-serif"],
+            },
         },
     },
     plugins: [],
