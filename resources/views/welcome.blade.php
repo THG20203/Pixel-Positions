@@ -18,9 +18,9 @@
             section below to be at the very bottom of the card --}}
             <div class="flex justify-between items-center mt-auto">
                 <div>
-                    <a href="#" class="bg-white/10 hover:bg-white/25 px-1 py-1 rounded-xl text-xs">Tag</a>
-                    <a href="#">Tag</a>
-                    <a href="#">Tag</a>
+                    <a href="#" class="bg-white/10 hover:bg-white/25 px-1 py-1 rounded-xl text-xs transition-colors duration-300">Tag</a>
+                    <a href="#" class="bg-white/10 hover:bg-white/25 px-1 py-1 rounded-xl text-xs transition-colors duration-300">Tag</a>
+                    <a href="#" class="bg-white/10 hover:bg-white/25 px-1 py-1 rounded-xl text-xs transition-colors duration-300">Tag</a>
                 </div>
                 <img src="https://placehold.co/42x42" alt="" />
             </div>
