@@ -15,9 +15,9 @@
             section below to be at the very bottom of the card --}}
     <div class="flex justify-between items-center mt-auto">
         <div>
-            <x-tag></x-tag>
-            <x-tag></x-tag>
-            <x-tag></x-tag>
+            <x-tag>Tag</x-tag>
+            <x-tag>Tag</x-tag>
+            <x-tag>Tag</x-tag>
         </div>
         <img src="https://placehold.co/42x42" alt="" class="rounded-xl" />
     </div>
