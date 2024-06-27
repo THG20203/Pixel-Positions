@@ -1,6 +1,6 @@
 <x-layout>
     <section>
-        <h3>Top Jobs</h3>
+        <h3 class="mb-6">Top Jobs</h3>
         {{-- flex-col means top to bottom --}}
         <div class="p-4 bg-white/5 rounded-xl flex flex-col text-center">
             {{-- make employer on  the far left with self start --}}
@@ -18,7 +18,7 @@
             section below to be at the very bottom of the card --}}
             <div class="flex justify-between items-center mt-auto">
                 <div>
-                    <a href="#">Tag</a>
+                    <a href="#" class="bg-white/10 hover:bg-white/25 px-1 py-1 rounded-xl text-xs">Tag</a>
                     <a href="#">Tag</a>
                     <a href="#">Tag</a>
                 </div>
