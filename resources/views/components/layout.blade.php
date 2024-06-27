@@ -32,7 +32,7 @@
             </div>
         </nav>
         {{-- max width values can be set with custom value in [] --}}
-        <main class="mt-10 max-w-[986px]">
+        <main class="mt-10 max-w-[986px] mx-auto">
             {{ $slot }}
         </main>
     </div>
